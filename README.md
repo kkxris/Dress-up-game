@@ -1,12 +1,16 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Pixel based dress up game
+A simple **dress up game** built with **React+Vite*.
+you can can customize a charachter by cycling through different options:
+-face
+-body
+-hair
+-dress
+-shoes
+-hats
+and you can even save the outfit to local storage so it doesnt vanishes when you reload or refresh.
+**TECH STACK**
+-React
+-Vite
+-CSS,HTML
+**PROJECT STRUCTURE**
+Dress-up-game/ ├── public/             # Static assets (images, icons, etc.) │   └── index.html ├── src/ │   ├── assets/         # Game images (faces, hair, dresses, etc.) │   ├── components/     # React components │   ├── App.jsx         # Main app logic │   ├── main.jsx        # Entry point │   └── index.css       # Global styles ├── package.json        # Dependencies and scripts ├── vite.config.js      # Vite configuration └── README.md           # Project documentation
