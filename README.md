@@ -11,7 +11,7 @@ You can customize a character by cycling through different options:
 - 🎩 Hats  
 
 ✨ You can also **save the outfit** to `localStorage`, so it stays even after you reload or refresh the page.  
-try it out here: "https://kkxris.github.io/Dress-up-game/"
+📎try it out here: "https://kkxris.github.io/Dress-up-game/"
 
 ---
 
